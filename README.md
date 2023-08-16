@@ -13,10 +13,11 @@ Hi! this  **Sign up form** consists of different componets.
 	 
  - HTML
  - CSS
- - Javascript
+ 
  
  **NOTES**
-There is need for password confirmation test between Confirm password and password feature
+
+ -There is need for password confirmation test between Confirm password and password feature
 **Features**
  
  - It can use do validation using html5 and Javscript

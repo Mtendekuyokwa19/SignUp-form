@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
 *{
 
     padding: 0px;
@@ -20,38 +23,36 @@ margin: 0px;
 
 body{
     --backdrop:#052240;
-    --backdrop2:white;
+    --backdrop2:WHITE;
   
     --edge: 0px 30px 30px 0px ;
     --grey:grey;
-    background-color:#C9D6DF;
+    
     font-family: Arial, Helvetica, sans-serif;
 
-
-background-image: url(./photos/back.png);
+font-family: 'Quicksand', sans-serif; 
+background-color: #f6f6f6;
 }
 body >div{
 display: flex;
 position: absolute;
 left: 150px;
 top: 70px;
+/* box-shadow: 2px 22px 83px -14px rgba(0,0,0,0.75); */
 
 
 }
 body >:nth-child(1){
-    background-color:var(--backdrop);
+    
 
 border-radius: 30px 30px 30px 30px ;
-box-shadow: 15px 10px 45px rgb(54, 51, 51);
+
 }
 #girl{
 
-   width: 400px;
-   height: 350px;
-   position: relative;
-   left: 65px;
-    top: 40px;
-    
+  height: 500px;
+  width: 500px;
+  border-radius: 30px 0px 0px 30px ;   
 }
 #Dummy_Logo{
 
@@ -68,24 +69,15 @@ height: 70px;
 background-color: var(--backdrop2);
 display: flex;
 flex-direction: column;
-margin-left: 140px;
+
 width: 500px;
 height: 500px;
 
 align-items: center;
 border-radius:var(--edge) ;
 }
-.form :nth-child(2){
-color: var(--color);
-/* font-size: 22px; */
 
 
-}
-.form :nth-child(3){
-font-size: 12px;
-font-weight: bold;
-color: var(--grey);
-}
 
 label{
 font-size: 14px;
@@ -94,12 +86,12 @@ font-size: 14px;
 }
 form div{
 
-width: 500px;
+
 
 padding: 0px 40px ;
 display: flex;
 position: relative;
-top: 30px;
+/* top: 30px; */
 justify-content: center;
 gap: 30px;
 
@@ -119,10 +111,7 @@ background-color:#EEEEEE;
 
 padding: 13px;
 }
-:active{
-border: blue;
 
-}
 
 form div :nth-child(2){
 gap: 10px;
@@ -169,3 +158,29 @@ button:hover {
 input:focus{
 outline: 1px solid #333746;
 }
+
+.image{
+    display: flex;
+    flex-direction: column;
+   color: white;
+    
+    
+ }
+ .image p{
+
+
+position: relative;
+top: -100px;
+width: 500px;
+letter-spacing: 2px;
+background-color: rgba(0,0,0, 50%);
+padding-left: 30px;
+
+ }
+
+ p span{
+
+    font-style: italic;
+
+
+ }
