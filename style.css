@@ -29,30 +29,40 @@ body{
     --grey:grey;
     
     font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, #030303 10%, transparent 11%),radial-gradient(circle at bottom left, #030303 5%, transparent 6%),radial-gradient(circle at bottom right, #030303 5%, transparent 6%),radial-gradient(circle at top left, #030303 5%, transparent 6%),radial-gradient(circle at top right, #030303 5%, transparent 6%);
+    background-size: 1em 1em;
+    background-color: #f5e0e0;
+    opacity: 1;
 
 font-family: 'Quicksand', sans-serif; 
-background-color: #a8a6a6;
+/* background-color: #a8a6a6; */
 }
-body >div{
+body>div{
 display: flex;
-position: absolute;
-left: 150px;
-top: 70px;
-/* box-shadow: 2px 22px 83px -14px rgba(0,0,0,0.75); */
+justify-content: center;
+align-items: center;
+box-shadow: 30px 30px 0px black;
+
+height: 100vh;
 
 
 }
-body >:nth-child(1){
-    
+.image{
 
-border-radius: 30px 30px 30px 30px ;
+
+  width: 500px;
+  height: 500px;
+
+
 
 }
+
 #girl{
 
   height: 500px;
   width: 500px;
-  border-radius: 30px 0px 0px 30px ;   
+
+  
 }
 #Dummy_Logo{
 
@@ -91,7 +101,7 @@ form div{
 padding: 0px 40px ;
 display: flex;
 position: relative;
-/* top: 30px; */
+
 justify-content: center;
 gap: 30px;
 
@@ -160,8 +170,6 @@ outline: 1px solid #333746;
 }
 
 .image{
-    display: flex;
-    flex-direction: column;
    color: white;
     
     
@@ -184,3 +192,10 @@ padding-left: 30px;
 
 
  }
+ div>div{
+
+
+  box-shadow: 10px 10px 0px black;
+
+ }
+ 
