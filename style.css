@@ -138,18 +138,20 @@ display: flex;
 flex-direction: column;
 gap: 50px;
 
+
 }
 
 button{
 font-size: 17px;
 width: 130px;
-position: relative;
-left: 170px;
+
 background-color: var(--backdrop);
 border-radius: 2px;
 padding:10px;
 border: none;
 border-radius: 3px;
+
+align-self: center;
 
 }
 button p{
@@ -161,7 +163,8 @@ font-size: 16px;
 
 button:hover {
       background-color:orangered ;
-    color: white;
+      box-shadow:3px 6px 0px black;
+   
     
     }
 
