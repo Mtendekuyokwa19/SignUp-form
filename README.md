@@ -12,7 +12,7 @@ Hi! this  **Sign up form** consists of different componets.
 **Languages**
 
 - HTML
-- CSS
+- Vanilla CSS
 
  **NOTES**
 

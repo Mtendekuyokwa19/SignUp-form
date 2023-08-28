@@ -35,7 +35,7 @@ body{
     opacity: 1;
 
 font-family: 'Quicksand', sans-serif; 
-/* background-color: #a8a6a6; */
+
 }
 body>div{
 display: flex;
@@ -57,7 +57,7 @@ height: 100vh;
 
 }
 
-#girl{
+#humans{
 
   height: 500px;
   width: 500px;
@@ -144,8 +144,8 @@ gap: 50px;
 button{
 font-size: 17px;
 width: 130px;
-
-background-color: var(--backdrop);
+color:white;
+background-color: black;
 border-radius: 2px;
 padding:10px;
 border: none;
@@ -154,20 +154,16 @@ border-radius: 3px;
 align-self: center;
 
 }
-button p{
-    color:white;
-font-size: 16px;
 
-
-}
 
 button:hover {
-      background-color:orangered ;
-      box-shadow:3px 6px 0px black;
-   
+      background-color:white;
+      box-shadow:3px 3px 0px black;
+   color: black;
+   border: solid 2px black;
+   font-weight: 400;
     
-    }
-
+}
 input:focus{
 outline: 1px solid #333746;
 }
@@ -198,7 +194,7 @@ padding-left: 30px;
  div>div{
 
 
-  box-shadow: 10px 10px 0px black;
+  box-shadow: 12px 15px 0px black;
 
  }
  
